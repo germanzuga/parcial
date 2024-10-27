@@ -1,0 +1,451 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav li a{
+    color: rgb(184, 184, 182);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 95px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 18px;
+}
+.iconos a:hover {
+   
+    color: #dfd6d6;
+    
+}
+
+
+/* aquì se implementan los estilos css para la seccion uno*/
+
+.principal {
+    background-color: white;
+    height: 250px;
+    width: 100%; 
+    align-items: start;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.video1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.capaabsolute{
+    position: absolute;
+    top: 50px;
+    left: 33%;
+    color: black;
+}
+
+.contenidouno {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    text-align: left;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.contenidouno h1{
+    margin-top: 200px;
+    margin-left: 700px;
+    margin-bottom: 15px;
+    font-family: "Quicksand", sans-serif;
+    /*text-transform: uppercase;*/
+    font-size: 35px;
+    color: #000000;
+   /* letter-spacing: 10px; */
+
+}
+
+.contenidouno h2{
+    margin-bottom: 15px;
+    margin-right: 150px;
+
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    color: #000000;
+    letter-spacing: 2px;
+}
+
+/*
+.contenidouno p{
+    margin-bottom: 30px;
+    font-family: "Qwitcher Grypen", cursive;
+    font-size: 30px;
+    color: #d4f711;
+    letter-spacing: 3px;
+    line-height: 15px;
+}
+*/
+
+.botones {
+    display: flex;
+    justify-content:right;
+    margin-right: 15px;
+    margin-top: 50px;
+
+}
+
+.button {
+    background-color: #000000;
+    color: rgb(192, 197, 192);
+    padding: 10px 48px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 30px;
+    margin: 0 30px;
+    word-spacing: 10px;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+.button:hover {
+    background-color: #fdfdfd;
+    color: #000000;
+    padding: 10px 48px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 30px;
+    margin: 0 30px;
+}
+
+
+/*estilos para el contenido dos*/
+
+.banner {
+    /*
+    background-image: url('../imagen/muelle.jpg');
+    background-size: cover;
+    background-position: center;
+    */
+    height: 1280px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videosaudi {
+    display: flex;
+    width: 720;
+    height: 1280px;
+}
+
+.contenidodos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1280px;
+    text-align: center;
+    color: #000000;
+    padding: 2px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenidodos h2{
+    margin-top: 100px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    line-height: 80px;
+    letter-spacing: 2px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.contenidodos p {
+    margin-top: 1px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.button1 {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px 48px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 30px;
+    margin: 0 30px;
+    word-spacing: 10px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.button1:hover {
+    background-color: #3ec5e7;
+    color: #000000;
+    padding: 10px 48px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 30px;
+    margin: 0 30px;    
+}
+
+.banner1 {
+    height: 1280px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videosaudi1 {
+    display: flex;
+    width: 720;
+    height: 1280px;
+}
+
+.contenidodos1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1280px;
+    text-align: center;
+    color: #000000;
+    padding: 2px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenidodos1 h2{
+    margin-top: 100px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    line-height: 80px;
+    letter-spacing: 2px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.contenidodos1 p {
+    margin-top: 1px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-family: "Quicksand", sans-serif;
+}
+
+/*
+.figuras {
+    display: flex;
+    justify-content: center;
+}
+
+.figuras a {
+    margin: 0 10px;
+    color: aqua;
+    font-size: 30px;
+    letter-spacing: 50px;
+}
+.figuras a:hover {
+   
+    color: #f3e306;
+    
+}
+*/
+
+
+
+/*creando la seccion 03 del contenido de la pagina*/
+
+  .galeria {
+    background-color: #ffffff;
+    padding: 50px 0;
+    border-radius: 5px;
+   
+    }
+
+  .galeria h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  } 
+
+  .contenidotres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+
+  .contenidotres .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contenidotres .columna img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 4px;
+    
+  }
+
+  .contenidotres .columna p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+  }
+
+  .contenidotres .columna a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
+
+  .contenidotres .columna a:hover {
+    background-color: #fcfcfc;
+    color: #000000;
+
+  }
+
+  .img {
+    transition: transform 1s;
+  }
+
+  .img:hover {
+    transform: scale(1.2);
+    transition: transform 1s;
+
+  }
+
+
+  
+  /*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    display: flex;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  .filas {
+    display: flex;
+    align-items: first baseline;
+    margin-bottom: 10px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    flex-direction: column;
+  }
+
+  .filas1 {
+    display: flex;
+    margin-left: 700px;
+    align-items: first baseline;
+    margin-bottom: 10px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    flex-direction: column;
+  }
+
+  .filas1 ol {
+    list-style-type: none;
+
+  }
+  
+  h3 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 20px;
+
+  }
+
+ p {
+    color: #ffffff;
+    margin: 0;
+    font-size: 15px;
+
+  }
+  
+  
+  /* Aquí puedes agregar tu CSS */
+
+
+  
